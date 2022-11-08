@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "lib": ["ESNext","DOM","ES2018.Promise" ]
+
+
+  },
+  "include": ["src/**/*.ts","src/**/*.d.ts","src/**/*.d.tsx","src/**/*.vue"]
+}
