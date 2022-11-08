@@ -1,10 +1,6 @@
-console.log('vi111te')
-export function render() {
-  document.getElementById('app')!.innerHTML = 'main12'
-}
-render()
-if (import.meta.hot) {
-  import.meta.hot.accept((newModule) => {
-    newModule!.render()
-  })
-}
+import { createApp } from "vue"
+import App from "./App.vue"
+const app = createApp(App)
+app.mount("#app")
+
+const arr = [1, 234]
