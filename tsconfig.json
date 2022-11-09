@@ -7,9 +7,11 @@
     "sourceMap": true,
     "esModuleInterop": true,
     "jsx": "preserve",
-    "lib": ["ESNext","DOM","ES2018.Promise" ]
-
-
+    "lib": ["ESNext", "DOM", "ES2018.Promise"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "include": ["src/**/*.ts","src/**/*.d.ts","src/**/*.d.tsx","src/**/*.vue"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.d.tsx", "src/**/*.vue"]
 }

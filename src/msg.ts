@@ -2,10 +2,7 @@ interface Msg {
   text: string
 }
 const msg: Msg = {
-  text: "zhufeng"
+  text: "test"
 }
 
 export default msg
-const ms2g: Msg = {
-  text: "zhufeng"
-}
